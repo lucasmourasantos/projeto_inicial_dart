@@ -26,25 +26,6 @@ void main() {
   noz1.fazerMassa();
 }
 
-/**
- * TIPOS DE PARÂMETROS
- * 1 - Posicionais Obrigatórios;
- *     - Parâmetro na mesma ordem dos argumentos 
- * 
- * 2 - Nomeados Opcionais;
- *     - Parâmetro cor: "Roxo";
- *     - Argumento {String? cor}
- *     - O parâmetro é recebido direto no argumento cor;
- *     - mostrarMadura({String? nome, int? dias, String? cor}) {
- * 
- * 3 - Parâmetros com "Padrão";
- *     - {String cor = "Sem cor"} 
- * 
- * 4 - Modificador "required".
- *     - Parâmetro obrigatório;
- *     - {required String cor}
- */
-
 bool funcEstaMadura(int dias) {
   if (dias >= 30) {
     return true;
