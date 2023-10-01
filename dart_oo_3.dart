@@ -1,29 +1,5 @@
 void main() {
-  Fruta melancia = Fruta('Melancia', 1500.0, 'Verde', 'Doce', 40); // Aula 3.4
-  melancia.estaMadura(43);
-
-  Legume legume1 = Legume("Macaxeira", 1200, "Marrom", true);
-  Fruta fruta1 = Fruta("Banana", 75, "Amarelo", "Doce", 12);
-  Nozes noz1 = Nozes("Amendoim", 3.5, "Marrom", "Doce", 130, 17);
-  Citricas citrica1 = Citricas("Laranja", 200, "Laranja", "Azedo", 20, 7);
-
-  legume1.printAlimento();
-
-  fruta1.printAlimento();
-
-  noz1.printAlimento();
-
-  citrica1.printAlimento();
-
-  legume1.cozinhar(); // Funciona
-
-  //fruta1.cozinhar(); // Erro!
-
-  //legume1.fazerSuco(); // Erro!
-
-  fruta1.fazerSuco(); // Funciona!
-
-  noz1.fazerMassa();
+  
 }
 
 bool funcEstaMadura(int dias) {
